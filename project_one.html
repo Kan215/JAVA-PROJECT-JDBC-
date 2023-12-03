@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>  
+    .layoutColor {
+        background-color: burlywood;
+    }
+    .buttonOne {
+        color: blue;
+        width: 100px;
+    }
+    body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Set the height of the body to the full viewport height */
+            margin: 0; /* Remove default margin to ensure the form is centered */
+        }
+
+    .flow {
+            width: 300px; /* Set a fixed width for the form container */
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: aqua;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+</style>
+</head>
+<body class="layoutColor">
+    <div class="flow">
+    <form action="project_two.jsp", method="post">
+        <label for="Firsnamevar">Firs Name</label><br/>
+        <input type="text", name="Firsnamevar", placeholder="enter your Firs-Name"><br /><br />
+        <label for="Secondnamevar">Second Name</label><br /><br />
+        <input type="text", name="Secondnamevar", placeholder="enter your Second-Name"><br /><br />
+        <label for="Sirnamevar">Sirname</label><br /><br />
+        <input type="text", name="Sirnamevar", placeholder="enter your Sir-name"><br /><br />
+        <label for="emailvar">Email</label><br /><br />
+        <input type="text", name="emailvar", placeholder="enter your email"><br /><br />
+        <label for="passwordvar">Password</label><br />
+        <input type="password", name="passwordvar", placeholder="enter your password"><br /><br />
+        <button type="submit",class="buttonOne", name="but">submit</button><br /><br />
+    </form>
+    </div>
+</body>
+</html>
