@@ -1,1 +1,2 @@
 # JAVA-PROJECT-JDBC-
+THIS IS THE FINAL JAVA PROJECT ON JDBC. push your code once done.
