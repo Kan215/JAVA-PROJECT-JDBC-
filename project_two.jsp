@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport", http-equiv="contentType", content="width=device-width, initial-scale=1.0, text/html">
+    <meta name="viewport", http-equiv="contentType", content="width=device-width, initial-scale=1.0, contentType = "text/html">
     <title>Jsp page</title>
     <link href = "project_one.html">
 </head>
